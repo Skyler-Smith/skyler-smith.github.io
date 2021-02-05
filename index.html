@@ -6,11 +6,22 @@
         <meta name="author" content="Skyler Smith">
         <title>CE Truffaut | Web Developer</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <style> .fixed-nav-bar {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  z-index: 9999;
+                  width: 100%;
+                  height: 50px;
+                  background-color: #00a087;
+                }
+        </style>
     </head>
     
 <!-- Add an id attribute with a value of "top" to the opening body tag. -->
     
-    <body id="top">
+    <body>
+    <a id="top"></a>    
         
 <!-- PAGE HEADER -->        
         <!-- Wrap the top level heading in a header element -->
@@ -21,6 +32,7 @@
 <!-- NAVIGATION BAR -->        
         <!-- Wrap the unordered list of links in a nav element -->
         <nav class="fixed-nav-bar">
+            
         <!-- Add the image "patricia-frost-125-edited-medium.jpg" right before the opening <ul> tag of the nav. Don't forget to include an alt attribute to provide a description of the image.-->
                 <img src="patricia-frost-125-edited-medium.jpg"
                      alt="a picture of patricia">
