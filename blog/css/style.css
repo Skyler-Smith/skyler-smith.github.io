@@ -1,0 +1,146 @@
+html{
+    font-family: 'montserrat';
+}
+
+
+h2,h3{
+    font-weight:bold;
+}
+
+
+.freegan
+{
+padding: 0px 20px 0px 0px;
+}
+span,button{
+    text-shadow: 0 0 3px black;
+    font-family: 'ultra-regular';
+    color: blanchedalmond;
+}
+
+.highlight{
+
+      border-radius: 25px;
+      background:#8B0000;
+      padding: 10px;
+      width: 200px;
+      height: 150px;
+      box-shadow: 2px 2px black;
+}
+
+.top-left-image
+{
+width:400px;
+height:500px;
+padding: 0px 20px 0px 0px;
+}
+
+.padding
+{
+padding: 10px 10px 10px 10px;
+width:267px;
+height:350px;
+}
+
+.left-images-pad
+{
+padding: 100px 10px 10px 10px;
+width:600px;
+height:350px;
+}
+
+.topcolumn{
+  float:left;
+  width: 70%;
+}
+
+.rowimages{
+  display: flex;
+  margin-left: 0px;
+  align-items:left;
+}
+
+.boxed{
+    border: 10px solid green;
+    margin-bottom: 30px;
+        border-bottom:.125rem solid #33658A;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    
+}
+.rightcolumn{
+    float:right;
+    width: 30%;
+}
+.verticalLine {
+  border-left: .35rem solid #33658A;
+  height: 2400px;
+  position: absolute;
+  left: 69.5%;
+  margin-left: 0px;
+  top: 65;
+}
+
+a:link, a:visited {
+    background-color: white;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   cursor: pointer;
+   display: inline-block;
+}
+
+nav{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+      border-top: .125rem solid #33658A;
+      border-bottom: .125rem solid #33658A;
+
+}
+
+nav a{
+    padding: 50px;
+}
+h1{ font:sans-serif;
+    margin-bottom: 30px;
+    transform: rotate(-5deg);
+    font-weight:bold;
+}
+
+body {
+  margin:0;
+  padding:8px 4px 12px 4px;
+}
+
+button{
+    font-size: 18px;  
+    border-radius: 5px;
+      background: #191970;
+      padding: 10px;
+      width: 140px;
+      height: 50px;
+      box-shadow: 2px 2px black;
+}
+
+@font-face {
+    font-family:'ultra-regular';
+    src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'montserrat';
+    src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
